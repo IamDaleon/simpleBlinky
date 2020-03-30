@@ -1,0 +1,1 @@
+## This is a simple Arduino Project made on VS Code and PlatformIO
