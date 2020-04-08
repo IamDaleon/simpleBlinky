@@ -6,7 +6,4 @@
 
 <hr>
 
-+ Sparkfun -- ESP32
-+ Seedstudio -- TFT touch shield
-k
-kj
++ Arduino -- Mega2560
