@@ -1,6 +1,9 @@
+/*DaleonL
+April 8th, 2020*/
+
 #include <Arduino.h>
 const int LedPin = 13;
-
+const int delayPeriod = 50;
 void setup() {
   pinMode(LedPin,OUTPUT);
   // put your setup code here, to run once:
@@ -8,12 +11,12 @@ void setup() {
 
 void loop() {
   digitalWrite(LedPin,LOW);
-  delay(50);
+  delay(delayPeriod);
   digitalWrite(LedPin,HIGH);
-  delay(100);
+  delay(delayPeriod*2);
   digitalWrite(LedPin,LOW);
-  delay(50);
+  delay(delayPeriod);
   digitalWrite(LedPin,HIGH);
-  delay(1000);
+  delay(delayPeriod*20);
   // put your main code here, to run repeatedly:
 }
